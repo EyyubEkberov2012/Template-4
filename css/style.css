@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    width: 100%;
+    min-height: 1700px;
+    float: left;
+    /* background-color: black; */
+}
+#img{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/dee.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+#black {
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    opacity: 0.8;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    
+}
+#header{
+    width: 100%;
+    height: 150px;
+    background-color:black;
+    opacity: 0.9;
+    z-index: 999;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+#header i{
+    color: white;
+    margin-left: 30px;
+    
+}
+.span {
+    color: white;
+    margin-left: 10px;
+}
+.icon {
+    color: white;
+    float: right;
+    margin-right: 30px;
+}
+.icon1 {
+    color: white;
+    float: right;
+    margin-right: 5px;
+}
+.span2 {
+border: 2px solid  lightgrey;
+padding: 5px;
+box-sizing: border-box;
+color: white;
+position: relative;
+top: 55px;
+float: left;
+left: 70px;
+}
+#header a{
+    color: white;
+    text-decoration: none;
+   position: relative;
+   top: 55px;
+   margin-left: 30px;
+}
+.icon2 {
+    color: white;
+    float: right;
+    margin-right: 5px; 
+    position: absolute;
+    top: 65px;
+    right: 90px;
+}
+.icon3 {
+    color: white;
+    float: right;
+    margin-right: 5px; 
+    position: absolute;
+    top: 65px;
+    right: 60px;
+}
+#black h3{
+    color: white;
+    font-size: larer;
+    margin-bottom: 0;
+opacity: 1;
+}
+#black h1{
+    color: white;
+    font-size: 40px;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+}
+#black p{
+    color: white;
+    float: left;
+    text-align: start;
+
+    margin-right:800px;
+}
+#black button{
+    color: white;
+    background-color: darkgreen;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 12px;
+  
+
+}
+#center{
+    width: 100%;
+    min-height: 300px;
+    float: left;
+
+}
+.div{
+    width: 29%;
+    min-height: 300px;
+    float: left;
+    padding: 20px;
+    
+
+}
+
+b{
+    margin-left: 20px;
+}
+#center p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer{
+   width: 100%;
+   min-height: 600px; 
+   float: left;
+   padding-left: 1%;
+   margin-right: 3%;
+   box-sizing: border-box;
+}
+#div1{
+    width: 95%;
+    min-height: 100px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.qaqa{
+    background-color: green;
+   color: white;
+   font-size: larger;
+   padding-left: 10px;
+   padding-right: 10px;
+   box-sizing: border-box;
+   transition: 0.5s;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+.qaqa:hover{
+    background-color:lawngreen;
+     border: 2px solid grey;
+   
+}
+#div1 span{
+    font-size:larger ;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#imgs{
+    width: 94%;
+    min-height: 600px;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-left: 40px;
+
+}
+#Book{
+    width: 30%;
+    min-height: 300px;
+    float: left;
+    background-image: url(../img/uudiiiod.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+#Book1{
+    width: 30%;
+    min-height: 300px;
+    float: left;
+    background-image: url(../img/dd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    margin: 10px;
+}
+#Book2{
+    width: 30%;
+    min-height: 300px;
+    float: left;
+    background-image: url(../img/deadpool.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+#Book3{
+    width: 30%;
+    min-height: 300px;
+    float: left;
+    background-image: url(../img/batman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    margin: 10px;
+}
+#Book4{
+    width: 30%;
+    min-height: 300px;
+    float: left;
+    background-image: url(../img/spiderman.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+#Book5{
+    width: 30%;
+    min-height: 300px;
+    float: left;
+    background-image: url(../img/gg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
